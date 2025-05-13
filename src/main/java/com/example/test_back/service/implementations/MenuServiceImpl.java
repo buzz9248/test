@@ -69,8 +69,6 @@ public class MenuServiceImpl implements MenuService {
                         .build())
                 .collect(Collectors.toList());
 
-
-
         return ResponseDto.setSuccess(ResponseMessage.SUCCESS, respDto);
     }
 
